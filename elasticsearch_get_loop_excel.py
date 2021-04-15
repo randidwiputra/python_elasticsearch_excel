@@ -45,7 +45,7 @@ awbNumber = ["000835633844",
              "000988015675"]
 
 for awb in awbNumber:
-    res = es.search(index='sicepat-lpb', body ={
+    res = es.search(index='hghlpb', body ={
             "size": 100,
             "_source": {
                 "excludes": []
